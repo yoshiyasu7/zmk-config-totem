@@ -45,14 +45,6 @@
     };
 
     behaviors {
-        kh_hs: kh_hardsign {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
-
-            mods = <MOD_ALT>;
-        };
-
         ss_hs: ss_hs {
             compatible = "zmk,behavior-mod-morph";
             label = "SS_HS";
