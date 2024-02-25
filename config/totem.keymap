@@ -118,7 +118,7 @@
 
             bindings = <
            &kp DOT      &kp N7           &kp N8          &kp N9                   &kp ASTERISK    &kp HOME  &kp PAGE_DOWN  &kp PG_UP   &kp END    &trans
-           &hrm LGUI N0  &hrm N4 LEFT_ALT  &hrm LCTRL N5    &hrm LEFT_SHIFT NUMBER_6  &kp MINUS       &kp LEFT  &kp DOWN       &kp UP      &kp RIGHT  &kp K_COPY
+           &hrm LGUI N0  &hrm LEFT_ALT N4 &hrm LCTRL N5    &hrm LEFT_SHIFT NUMBER_6  &kp MINUS       &kp LEFT  &kp DOWN       &kp UP      &kp RIGHT  &kp K_COPY
 &kp EQUAL  &kp SLASH    &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3             &kp PLUS        &trans    &kp K_UNDO     &kp K_REDO  &trans     &kp K_CUT   &trans
                                          &kp LEFT_SHIFT  &trans                   &trans          &trans    &trans         &trans
             >;
