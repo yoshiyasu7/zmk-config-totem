@@ -82,7 +82,7 @@
             bindings = <
               &kp Q        &kp W        &kp E           &kp R         &kp T        &kp Y      &kp U            &kp I         &kp O        &kp P
               &hrm LGUI A  &hrm LALT S  &hrm LCTRL D    &hrm LSHFT F  &kp G        &kp H      &hrm RSHFT J     &hrm RCTRL K  &hrm RALT L  &hrm RGUI SEMICOLON
-&lt 0 ESCAPE  &kp Z        &kp X        &kp C           &kp V         &kp B        &kp N      &kp M            &kp COMMA     &kp DOT      &kp FSLH             &kp SQT
+&lt 3 ESCAPE  &kp Z        &kp X        &kp C           &kp V         &kp B        &kp N      &kp M            &kp COMMA     &kp DOT      &kp FSLH             &kp SQT
                                         &hrm LCTRL DEL  &lt 1 TAB     &kp SPACE    &kp ENTER  &lt 2 BACKSPACE  &kp MINUS
             >;
         };
@@ -110,7 +110,7 @@
         func {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp F1
-        &trans  &trans  &trans  &trans  &tog 4    &trans  &trans  &trans  &trans  &kp F10
+        &trans  &trans  &trans  &trans  &sl 4     &trans  &trans  &trans  &trans  &kp F10
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp F20  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
@@ -119,7 +119,7 @@
         game {
             bindings = <
          &kp Q  &kp W  &kp E      &kp R     &kp T        &trans  &trans  &trans  &trans  &trans
-         &kp A  &kp S  &kp D      &kp F     &tog 5       &trans  &trans  &trans  &trans  &trans
+         &kp A  &kp S  &kp D      &kp F     &sl 5        &trans  &trans  &trans  &trans  &trans
 &kp ESC  &kp Z  &kp X  &kp C      &kp V     &kp B        &trans  &trans  &trans  &trans  &trans  &trans
                        &kp LCTRL  &kp LALT  &kp SPACE    &trans  &trans  &trans
             >;
