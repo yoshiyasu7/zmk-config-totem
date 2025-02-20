@@ -64,6 +64,13 @@
             bindings = <&kp LEFT_ALT &kp F4>;
             label = "ALTF4";
         };
+
+        ScreenSelectedArea: ScreenSelectedArea {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp LSHIFT &kp S>;
+            label = "SCREENSELECTEDAREA";
+        };
     };
 
     keymap {
@@ -92,10 +99,10 @@
         symb {
             label = "SYMB";
             bindings = <
-        &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
-        &trans           &trans       &trans    &trans      &trans         &trans          &trans         &trans        &trans            &trans
-&trans  &trans           &trans       &trans    &trans      &trans         &kp UNDERSCORE  &kp EQUAL      &trans        &trans            &trans             &kp HOME
-                                      &trans    &trans      &trans         &trans          &trans         &trans
+        &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND        &kp ASTERISK  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+        &trans           &trans       &trans    &trans      &trans         &trans          &ScreenSelectedArea  &trans        &trans            &trans
+&trans  &trans           &trans       &trans    &trans      &trans         &kp UNDERSCORE  &kp EQUAL            &trans        &trans            &trans             &kp HOME
+                                      &trans    &trans      &trans         &trans          &trans               &trans
             >;
         };
 
