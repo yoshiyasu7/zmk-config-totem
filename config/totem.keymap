@@ -43,9 +43,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <175>;
             quick-tap-ms = <200>;
-            require-prior-idle-ms = <175>;
+            require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
     };
@@ -54,7 +54,14 @@
         CtrAltDel: CtrAltDel {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT_ALT &kp DELETE>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_press>,
+                <&kp DELETE>;
+
             label = "CTRALTDEL";
         };
 
