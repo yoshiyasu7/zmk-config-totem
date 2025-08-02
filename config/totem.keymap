@@ -96,7 +96,7 @@
         NnM {
             label = "NAVI AND MATH";
             bindings = <
-              &kp DOT         &none           &none           &none            &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+              &kp DOT         &none           &none           &kp SEMICOLON    &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
               &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS       &kp DOWN_ARROW  &kp PLUS         &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp PLUS
                                               &none           &none            &none                   &none                  &kp BACKSLASH  &kp DOT
